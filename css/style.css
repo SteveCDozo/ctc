@@ -55,13 +55,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #052b6e;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: #052b6e;
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,13 +69,13 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #052b6e;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #633991;
+    color: #052b6e;
     margin-bottom: 0.7rem;
 }
 
@@ -89,7 +89,7 @@ p.lead {
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #62b5e5 !important;
 }
 
 .light-font {
@@ -184,12 +184,25 @@ p.lead {
     transition: all 0.3s ease;
 }
 
+/*
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(74, 13, 143);
     background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
     background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
     background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+}
+*/
+
+.nav-menu.is-scrolling,
+.nav-menu.menu-is-open {
+    background-color: rgb(0, 151, 169);
+    background: -moz-linear-gradient(135deg, rgb(98,181,229) 0%, rgb(160,210,95) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(98,181,229) 0%, rgb(160,210,95) 100%);
+    background: linear-gradient(135deg, rgb(98,181,229) 0%, rgb(160,210,95) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -239,12 +252,27 @@ header {
     color: #FFF;
 }
 
-.bg-gradient {
+.bg-gradient-uc1{
+  background-image: url("/ctc/images/background1.jpg");
+  background-position:center top;
+}
+
+/*
+.bg-gradient { 
     background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
 }
+*/
+
+.bg-gradient { 
+    background-image: -moz-linear-gradient( 135deg, rgba(5, 43, 110, 0.8) 0%, rgba(124, 215, 44, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(5, 43, 110, 0.8) 0%, rgba(124, 215, 44, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(5, 43, 110, 0.8) 0%, rgba(124, 215, 44, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(5, 43, 110, 0.8) 0%, rgba(124, 215, 44, 0.8) 100%);
+}*/
+
 
 .tagline {
     font-size: 23px;
@@ -346,7 +374,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #7cd72c;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -364,10 +392,8 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+  
+    background-color: #7cd72c;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -493,11 +519,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff487e;
+    background: #7cd72c;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #7cd72c;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
