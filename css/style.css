@@ -83,6 +83,10 @@ p {
     color: #959094;
 }
 
+header p {
+  color: #e2dce1;
+}
+
 p.lead {
     color: #e38cb7;
     margin-bottom: 2rem;
