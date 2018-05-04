@@ -88,7 +88,7 @@ header p {
 }
 
 p.lead {
-    color: #e38cb7;
+    color: #52aee0;
     margin-bottom: 2rem;
 }
 
@@ -485,15 +485,15 @@ header {
     padding: 1rem 1rem;
     border-color: #faf6fb #faf6fb #FFF;
     font-size: 19px;
-    color: #b5a4c8;
-    background: #f5eff7;
+    color: #52aee0;
+    background: #e9f5fc;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #63b6e3 #faf6fb #FFF;
+    color: #052b6e;
 }
 
 
