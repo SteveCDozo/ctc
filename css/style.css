@@ -154,7 +154,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #faf6fb;
+    background-color: #f6fafb;/*#faf6fb;*/
 }
 
 .section {
@@ -501,7 +501,7 @@ header {
 ----------------------*/
 
 .owl-carousel .owl-item img.client-img {
-    width: 110px;
+    width: 150px;
     margin: 30px auto;
     border-radius: 50%;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
@@ -593,7 +593,8 @@ header {
 
 .card.pricing.popular {
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
+    border-bottom-width: 3px;
+    border-color: #20E4FE #faf6fb;
     box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
     color: #633991;
 }
@@ -607,7 +608,7 @@ header {
     display: block;
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #0597A4;
 }
 
 .card.pricing .card-head .price sub {
